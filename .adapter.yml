@@ -1,0 +1,12 @@
+name: Example
+description: An example adapter that does something.
+node_identifier: wildmouse-example-002
+platform:
+  - Docker
+data_sources:
+  - name: Example
+    url: https://example.com
+  - name: Hoge
+    url: https://example.com/hoge
+  - name: Foo
+    url: https://example.com/foo
